@@ -1,7 +1,7 @@
 
 
 This archive contains the distribution HTTP-Body-Pairs, version
-0.1:
+0.2:
 
   methods for getting body params in the order they were sent
 

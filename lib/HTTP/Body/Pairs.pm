@@ -1,5 +1,5 @@
-package HTTP::Body;
-our $VERSION = '0.1';
+package HTTP::Body::Pairs;
+our $VERSION = '0.2';
 
 # ABSTRACT: methods for getting body params in the order they were sent
 
@@ -19,9 +19,9 @@ use warnings;
     };
 }
 
-sub flat_pairs { @{ $_[0]->{pairs} } }
+sub HTTP::Body::flat_pairs { @{ $_[0]->{pairs} } }
 
-sub pairs {
+sub HTTP::Body::pairs {
     my $a = $_[0]->{pairs};
     my @result;
     for (my $i = 0; $i < @$a; $i += 2) {
@@ -38,7 +38,7 @@ HTTP::Body::Pairs
 
 =head1 VERSION
 
-version 0.1
+version 0.2
 
 =head1 SYNOPSIS
 
