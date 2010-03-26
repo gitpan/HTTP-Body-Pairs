@@ -10,4 +10,5 @@ meta-spec:
 name: HTTP-Body-Pairs
 requires:
   ExtUtils::MakeMaker: 6.11
-version: 0.2
+  HTTP::Body: 0
+version: 0.3

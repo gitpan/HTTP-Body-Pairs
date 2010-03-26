@@ -17,10 +17,11 @@ my %WriteMakefileArgs = (
                        'AUTHOR' => 'Paul Driver',
                        'ABSTRACT' => 'methods for getting body params in the order they were sent',
                        'EXE_FILES' => [],
-                       'VERSION' => '0.2',
+                       'VERSION' => '0.3',
                        'LICENSE' => 'perl',
                        'PREREQ_PM' => {
-                                        'ExtUtils::MakeMaker' => '6.11'
+                                        'ExtUtils::MakeMaker' => '6.11',
+                                        'HTTP::Body' => '0'
                                       }
                      );
 

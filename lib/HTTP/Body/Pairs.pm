@@ -1,5 +1,5 @@
 package HTTP::Body::Pairs;
-our $VERSION = '0.2';
+our $VERSION = '0.3';
 
 # ABSTRACT: methods for getting body params in the order they were sent
 
@@ -38,7 +38,7 @@ HTTP::Body::Pairs
 
 =head1 VERSION
 
-version 0.2
+version 0.3
 
 =head1 SYNOPSIS
 
